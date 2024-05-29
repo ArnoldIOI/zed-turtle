@@ -1,0 +1,11 @@
+id = "turtle"
+name = "Turtle"
+description = "Turtle syntax support for Zed"
+version = "0.0.1"
+schema_version = 1
+authors = ["Arnold <0xacioi@gmail.com>"]
+repository = "https://github.com/ArnoldIOI/zed-turtle"
+
+[grammars.turtle]
+repository = "https://github.com/GordianDziwis/tree-sitter-turtle"
+commit = "085437f5cb117703b7f520dd92161140a684f092"

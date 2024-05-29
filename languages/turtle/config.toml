@@ -1,0 +1,8 @@
+name = "Turtle"
+grammar = "turtle"
+path_suffixes = ["ttl"]
+brackets = [
+    { start = "(", end = ")", close = true, newline = false },
+    { start = "[", end = "]", close = true, newline = false },
+    { start = "{", end = "}", close = true, newline = false },
+]
